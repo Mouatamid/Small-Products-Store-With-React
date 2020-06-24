@@ -1,0 +1,29 @@
+.products-list{
+  font-size: 14px;
+}
+.select{
+  display: inline;
+  float: right;
+}
+.select p{
+  display: inline;
+  margin-right: 15px;
+}
+.products-container{
+  display: grid;
+  grid-template-columns: repeat(4,1FR);
+  margin: auto;
+  width: 95%;
+  margin-top: 30px;
+}
+
+@media(max-width : 780px){
+  .products-container{
+    grid-template-columns: repeat(3,1FR);
+  }
+}
+@media(max-width : 480px){
+  .products-container{
+    grid-template-columns: repeat(2,1FR);
+  }
+}

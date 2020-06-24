@@ -1,0 +1,38 @@
+.product{
+  max-width: 450px;
+  text-align: center;
+  cursor: pointer;
+  padding: .6em;
+}
+.product img{
+  width: 100%;
+}
+h3.product-title{
+  font-size: 15px;
+  height: 45px;
+}
+hr{
+  width: 15%;
+  border: 2px solid rgb(235, 235, 27);
+}
+h3.product-price{
+  font-size: 20px;
+}
+.add-to-cart{
+  outline: none;
+  border: none;
+  font-size: 18px;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding: 1em 0em;
+  cursor: pointer;
+  transition: all .5s ;
+}
+.product:hover{
+  border: 1px solid #992b2b25;
+  box-sizing: content-box;
+}
+.product:hover .add-to-cart{
+  background-color: rgb(207, 207, 13) ;
+}

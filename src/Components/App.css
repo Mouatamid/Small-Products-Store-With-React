@@ -1,0 +1,12 @@
+.app{
+  display: grid;
+  grid-template-columns: 1Fr 4Fr;
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+}
+@media(max-width : 480px){
+  .app{
+    grid-template-columns: 1fr;
+  }
+}
