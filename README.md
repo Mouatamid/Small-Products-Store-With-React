@@ -1,3 +1,11 @@
+## Small products store with React
+This is a small products list store of FC Barcelona using React.
+
+Here is what it looks like :
+
+![Ap](https://github.com/Mouatamid/Small-Products-Store-With-React/blob/master/app.png?raw=true "app")
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +74,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Small-Products-Store-With-React
